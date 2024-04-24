@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 50px;
+color: #050931;
+}
+h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #131848;
+    line-height: 20px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #131848;
+    line-height: 30px;
+}
+p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #8F91A2;
+}
+.navbar{
+    background-color: #ECF1F4 !important;
+    padding: 10px;
+}
+.navbar .nav-item{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar .nav-item .nav-link{
+     font-size: 15px;
+     color: #717478;
+     font-weight: 400;
+     margin: 0 15px;
+     padding: 0;
+     transition: all .4s ease-in-out;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #55BC7E !important;
+}
+.navbar .main-btn{
+    width: 136px;
+    height: 46px;
+    background-color: #49A16C;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero{
+    height: auto;
+    background-color: #ECF1F4;
+}
+.hero span{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    padding: 6px 20px;
+    border-radius: 30px;
+    background-color: #D3E8E1;
+    color: #4E6570;
+}
+.col-auto{
+    width: 405px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 25px rgba(70, 85, 103, 0.09);
+    border-radius: 4px;
+}
+.subscribe-btn{
+
+width: 131px;
+height: 48px;
+background: #55BC7E;
+border: none;
+border-radius: 0px 4px 4px 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #FFFFFF;
+}
+::placeholder{
+font-style: normal;
+font-weight: 300;
+font-size: 13px;
+line-height: 20px;
+color: #CED3D9;
+}
+
+.about{
+    padding: 100px 0;
+}
+.about-box{
+    text-align: center;
+    padding: 0;
+}
+.wrap{
+    background-color: #ECF1F4;
+}
+.contact{
+    background-color: #344763;
+}
+.contact .col-auto{
+    margin-left: 350px;
+}
+.contact h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: white;
+}
+.footer{
+   background-color: #3a4f6e;
+}
+.footer-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+ }
+
+
